@@ -57,9 +57,6 @@ publishing {
             name = "subkek"
             url = uri("https://repo.subkek.space/maven-public")
             credentials(PasswordCredentials::class)
-            authentication {
-                create<BasicAuthentication>("basic")
-            }
         }
     }
 }
